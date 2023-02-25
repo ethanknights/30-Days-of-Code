@@ -2,10 +2,14 @@ i = 4
 d = 4.0
 s = 'HackerRank '
 # Declare second integer, double, and String variables.
-myInt = int(12)
-myDouble = float(4.0)
-myString = 'is the best place to learn and practice coding!'
+myInt = None
+myDouble = None
+myString = None
+
 # Read and save an integer, double, and String to your variables.
+myInt = int(input())
+myDouble = float(input())
+myString = str(input())
 
 # Print the sum of both integer variables on a new line.
 print(myInt + i)
