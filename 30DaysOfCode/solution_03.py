@@ -1,18 +1,8 @@
 #!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-
-
-
 N = int(input())
 
+
 def printFlag_weird(N):
-    
     if (N % 2) == 0:
         flag = 'Not Weird'
     else:
@@ -21,13 +11,11 @@ def printFlag_weird(N):
     if (N % 2) == 0 and N > 20:
         flag = 'Not Weird'
 
-    if N in range(6,22,2):
+    if N in range(6, 22, 2):
         flag = 'Weird'
-
-
 
     return flag
 
+
 flag = printFlag_weird(N)
 print(flag)
-

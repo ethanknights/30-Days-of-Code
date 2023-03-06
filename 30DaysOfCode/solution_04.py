@@ -3,7 +3,7 @@
 # and a constructor that takes an integer, as a parameter.
 # The constructor must assign  to  after confirming the argument passed as
 # is not negative; if a negative argument is passed as ,
-# the constructor should set  to  and print Age is not valid, setting age to 0..
+# the constructor should set  to  and print Age is not valid, setting age to 0.
 # In addition, you must write the following instance methods:
 #
 # yearPasses() should increase the  instance variable by .
@@ -27,8 +27,8 @@ class Person:
         return
 
     def amIOld(self):
-        # Do some computations in here and print out the correct statement to the console
-        # Switch statements avaialble in py v3.10 only! ... hackerrank's py is 3.9.4
+        # Do computations & print correct statement to console
+        # Switch statements avaialble in pyv3.10 only! Hackerrank's py is 3.9.4
         if self.age < 13:
             print('You are young.')
         elif self.age >= 13 and self.age < 18:
@@ -38,7 +38,7 @@ class Person:
         return
 
 
-## Input:
+# Input:
 t = int(input())
 for i in range(0, t):
     age = int(input())
