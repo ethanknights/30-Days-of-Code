@@ -12,11 +12,12 @@
 # If  and , print You are a teenager..
 # Otherwise, print You are old..
 
+
 class Person:
     def __init__(self, initialAge):
         # Add some more code to run some checks on initialAge
         if initialAge < 0:
-            print('Age is not valid, setting age to 0.')
+            print("Age is not valid, setting age to 0.")
             self.age = 0
         else:
             self.age = initialAge
@@ -30,11 +31,11 @@ class Person:
         # Do computations & print correct statement to console
         # Switch statements avaialble in pyv3.10 only! Hackerrank's py is 3.9.4
         if self.age < 13:
-            print('You are young.')
+            print("You are young.")
         elif self.age >= 13 and self.age < 18:
-            print('You are a teenager.')
+            print("You are a teenager.")
         else:
-            print('You are old.')
+            print("You are old.")
         return
 
 
