@@ -1,5 +1,3 @@
-
-
 def splitEvenOdd(myStrings):
 
     evenString = str()
@@ -15,10 +13,10 @@ def splitEvenOdd(myStrings):
 
 
 nStrings = int(input())
-for i in range(0, nStrings):
+for _i in range(0, nStrings):
     myString = str(input())
 
     evenString, oddString = splitEvenOdd(myString)
 
-    concatString = str(evenString + ' ' + oddString)
+    concatString = str(evenString + " " + oddString)
     print(concatString)
