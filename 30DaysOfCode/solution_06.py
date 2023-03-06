@@ -2,9 +2,10 @@
 
 def splitEvenOdd(myStrings):
 
-    evenString = str(); oddString = str()
+    evenString = str()
+    oddString = str()
 
-    for idx, i in enumerate(myString):
+    for idx, i in enumerate(myStrings):
         if (idx % 2) == 0:
             evenString += i
         else:
