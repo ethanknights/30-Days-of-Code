@@ -1,5 +1,4 @@
 def splitEvenOdd(myStrings):
-
     evenString = str()
     oddString = str()
 
