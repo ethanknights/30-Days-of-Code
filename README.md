@@ -5,7 +5,7 @@
 </div>
 
 # 30 Days of Code - HackerRank
-My challenge solutions are presented in Go & Python.
+My challenge solutions are presented in Go, Python & Scala.
 
 ### Misc.
 - Python code is blackened by a pre-commit hook (see https://github.com/ethanknights/30-Days-of-Code/blob/main/.github/workflows/python_linter.yml)
