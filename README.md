@@ -9,15 +9,11 @@
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 ![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white)
 
-
-
-
-
-Languages used for challenge solutions include Go, Python & Scala.
-
+### Languages
+The languages used for challenge solutions currently include Go, Python & Scala.
+<br><br>
 
 ### Misc.
-
 - Linting: Python code is blackened by a pre-commit hook (see https://github.com/ethanknights/30-Days-of-Code/blob/main/.github/workflows/python_linter.yml)
 
 - Software versions:
