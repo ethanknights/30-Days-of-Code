@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+
+# Environment
+.metals
+.vscode
+
+# Sample inputs
+sample*.txt
