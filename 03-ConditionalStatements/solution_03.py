@@ -1,4 +1,3 @@
-#!/bin/python3
 N = int(input())
 
 
