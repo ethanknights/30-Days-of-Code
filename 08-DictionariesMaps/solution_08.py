@@ -1,29 +1,12 @@
 # Generate phonebook dict and return queries afterward
-#
-# Sample Input
-# 3
-# sam 99912222
-# tom 11122222
-# harry 12299933
-# sam
-# edward
-# harry
-#
-# Sample Output
-# sam=99912222
-# Not found
-# harry=12299933
-# --
 n_entries = int(input().strip())  # Number of phonebook definitions incoming
 
 
 def create_phonebook(n_entry):
-    # Takes nEntries as user input('Ethan 9923')
-    phonebook = dict()
+    phonebook = dict()    # Takes nEntries as user input('Ethan 9923')
 
     for _i in range(0, n_entry):
         entry = str(input())
-        # print(entry)
 
         split_entry = entry.split()
 
@@ -32,7 +15,6 @@ def create_phonebook(n_entry):
 
         phonebook[name] = number
 
-    # print(phonebook)
     return phonebook
 
 
@@ -49,5 +31,4 @@ def query_phonebook(phonebook):
 
 
 phonebook = create_phonebook(n_entries)
-
 query_phonebook(phonebook)
