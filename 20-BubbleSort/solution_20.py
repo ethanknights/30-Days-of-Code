@@ -1,7 +1,6 @@
 # Implement bubble-sort
 # Input = n (nDim) & a (array)
 
-
 if __name__ == '__main__':
     n = int(input().strip())
     arr = list(map(int, input().rstrip().split()))
